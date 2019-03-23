@@ -1,0 +1,6 @@
+git
+python3
+clustalo
+muscle
+pip
+blastn
