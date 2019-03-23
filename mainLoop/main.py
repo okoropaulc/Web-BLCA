@@ -1,1 +1,1 @@
-import subprocessimport oscwd = bash_command("pwd")def bash_command(cmd):    subprocess.Popen(['/bin/bash', '-c', cmd])bash_command('ls')print(cwd)
+import subprocessimport osdef bash_command(cmd):    subprocess.Popen(['/bin/bash', '-c', cmd])bash_command('ls')cwd = bash_command("pwd")print(cwd)
