@@ -226,3 +226,13 @@ INFO:root:All dependencies installed
 INFO:root:mkdir ben
 INFO:root:cp -rf BLCA /home/compbio1/Web-BLCA/mainLoop/ben
 INFO:root:python3 2.blca_main.py -i data.fasta
+INFO:root:git installed and working fine
+INFO:root:python3 installed and working fine
+INFO:root:clustalo installed and working fine
+INFO:root:muscle installed and working fine
+INFO:root:pip3 install biopython
+INFO:root:git installed and working fine
+INFO:root:python3 installed and working fine
+INFO:root:clustalo installed and working fine
+INFO:root:muscle installed and working fine
+INFO:root:pip3 install biopython
