@@ -1,0 +1,21 @@
+<html>
+	{% import "bootstrap/wtf.html" as wtf %}
+
+	{% block title %}
+		<h1>Bayesian Lowest Common Ancestor
+		<hr />
+		</h1>
+	{% endblock %}
+
+	{% block page_content %}
+	<div class="page-header">
+		<h4>Welcome to BLCA Web Software</h4>
+		<hr />
+	</div>
+
+	<center>
+		{{ wtf.quick_form(form) }}
+	</center>
+	{% endblock %}
+	
+</html>
