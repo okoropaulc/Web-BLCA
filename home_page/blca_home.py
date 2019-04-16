@@ -40,9 +40,7 @@ class Form(FlaskForm):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     cwd1 = os.getcwd()
-    os.chdir("..")
-    cwd2 = os.getcwd()
-    os.chdir(cwd1)
+    cwd2 = cwd1[0:-9]
     name = None
     email = None
     sequence = None
@@ -55,9 +53,9 @@ def index():
         database = form.database.data
         #write_to_disk(name,surname, email)
         filename = secure_filename(form.file.data.filename)
-        form.file.data.save(cwd2 + "/mainLoop/" + filename)
-        #open("seqfile.fasta", "w+").write(sequence + "\n" + database)
-        open(cwd2 + "/mainLoop/preq.txt", "a").write(name + "\n" + email + "\n" + filename + "\n" + database)
+        form.file.data.save(cwd2 + "mainLoop/" + filename)
+        open(cwd2 + "mainLoop/seqfile.fasta", "w+").write(sequence + "\n" + database)
+        open(cwd2 + "mainLoop/preq.txt", "a").write(name + "\n" + email + "\n" + filename + "\n" + database)
         form.name.data = ''
         form.email.data = ''
         form.sequence.data = ''
