@@ -1,3 +1,5 @@
+#!/usr/bin/env python3 
+
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
@@ -31,5 +33,5 @@ def index():
     return render_template('home.html', form=nameform, name=name, email=email)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
