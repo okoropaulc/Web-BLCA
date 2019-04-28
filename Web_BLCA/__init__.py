@@ -8,11 +8,11 @@ from time import strftime
 from werkzeug.utils import secure_filename
 from flask_wtf.file import FileField, FileRequired
 import os
-from app import app
+#from app import app
 
 
 DEBUG = True
-#app = Flask(__name__)
+app = Flask(__name__)
 app.config.from_object(__name__)
 app.config['SECRET_KEY'] = 'hard to guess string ok?!'
 bootstrap = Bootstrap(app)
