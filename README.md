@@ -27,10 +27,10 @@ The user which the program is installed and run under must be in the www-data gr
 
 #Future Development
 
-*Validate Fasta
-*Balance Server Resources
-*More databases
-*User generated databases
-*Higher security 
+* Validate Fasta
+* Balance Server Resources
+* More databases
+* User generated databases
+* Higher security 
 
 
