@@ -1,5 +1,8 @@
+
 <html>
+	
 	{% import "bootstrap/wtf.html" as wtf %}
+		
 <head>
 	<title>Home</title>
 </head>
@@ -17,13 +20,20 @@
 	</div>
 	
 	<h3>Home</h3>
+	<p>Welcome to BLCA! Use the form below to submit your job
 	{% block page_content%}
 	<div></div>
-
+	<hr></hr>
 	<center>
+		
+		{% for message in get_flashed_messages() %}
+      		<div class=flash>{{ message }}</div>
+		{% endfor %}
+		<br></br>
 		{{ wtf.quick_form(form) }}
 	</center>
 	{% endblock %}
 	
     </body>
+
 </html>
