@@ -4,17 +4,16 @@ The Team members of this project are: Paul Okoro, Benjamin Lorentz, and John Mor
 
 # Aim
 The aim for the web version of the BLCA is to enable non technical savvy users to have access to this wonderful algorithm by just following a simple web user interface.
-#Prerequisities
 
-    * Python 3
-    * Linux
-    * Biopython
+#Prerequisities
+   * Python 3
+   * Linux
+   * Biopython
 
 #The following programs should be in your PATH:
-
-    * BLAST binary (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.5.0/)
-    * clustalo (http://www.clustal.org/omega/)
-    * MUSCLE (http://www.drive5.com/muscle/downloads.htm)
+   * BLAST binary (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.5.0/)
+   * clustalo (http://www.clustal.org/omega/)
+   * MUSCLE (http://www.drive5.com/muscle/downloads.htm)
 
 # Manual
 The web blca is completed and hosted at http://147.126.2.110/
